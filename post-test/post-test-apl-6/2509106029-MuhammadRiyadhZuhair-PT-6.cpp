@@ -50,14 +50,14 @@ penumpang* cariNobooking(penumpang arr[], int jumlah, string cariBooking){
 }
 
 void identitasPenumpang(penumpang* p){
-    cout << "==================== INFO PENUMPANG ====================";
+    cout << "\n==================== INFO PENUMPANG ====================\n";
     cout << " Nomor Booking : " << p->Nobooking << endl;
     cout << " Harga         : " << p->harga << endl;
     cout << " Nama          : " << p->nama << endl;
     cout << " Kursi         : " << p->kursi << endl;
     cout << " Maskapai      : " << p->maskapai << endl;
     cout << " Pesawat       : " << p->pesawat << endl;
-    cout << "========================================================";
+    cout << "\n========================================================\n";
 
 }
 
